@@ -2,9 +2,9 @@ name: Deploy React to GitHub Pages
 
 on:
   push:
-    branches:
+   branches:
       - main # name of the branch you are pushing to
-
+  workflow_dispatch:
 jobs:
   build:
     runs-on: ubuntu-latest
